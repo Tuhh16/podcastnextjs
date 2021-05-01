@@ -235,4 +235,17 @@
             }
         }
     }
+    &.dark {
+        table {
+            th {
+                color: var(--white);
+            }
+            td {
+                a {
+                    color: var(--white);
+                }
+            }
+        }
+       
+    }
 }

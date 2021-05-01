@@ -86,7 +86,12 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         </ul>
       </section> 
 
-      <section className={styles.allEpisodes}>
+      <section className={`
+        ${styles.allEpisodes}
+        ${theme === "light" ?
+          styles.light
+        : styles.dark      
+        }`}>
         <h2>Todos episódios</h2>
 
         <div className={styles.table}>
