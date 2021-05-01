@@ -70,7 +70,7 @@ export function Player() {
     const ativo = isPlayer ? styles.active : '';
     return (
         <div className={`${styles.playerContainer}  ${ativo}`}>
-            {/*<IoClose className={styles.buttonPlayerClose} onClick={tooglePlayer} />*/}
+            <IoClose className={styles.buttonPlayerClose} onClick={tooglePlayer} />
             <header>
                 <img src="/playing.svg" alt="Tocando agora" />
                 <strong>Tocando agora {episode?.title.substr(0, 11)}</strong>

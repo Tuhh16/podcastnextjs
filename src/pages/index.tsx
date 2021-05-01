@@ -45,7 +45,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
       <Head>
         <title>Home | Podcastr</title>
       </Head>
-      <section className={`
+     <section className={`
         ${styles.latestEpisodes}
         ${theme === "light" ?
           styles.light
@@ -84,11 +84,12 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
             )
           })}
         </ul>
-      </section>
+      </section> 
 
       <section className={styles.allEpisodes}>
-          <h2>Todos episódios</h2>
+        <h2>Todos episódios</h2>
 
+        <div className={styles.table}>
           <table cellSpacing={0}>
             <thead>
               <tr>
@@ -131,6 +132,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
               })}
             </tbody>
           </table>
+        </div>
       </section>
     </div>
   )

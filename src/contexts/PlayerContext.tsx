@@ -132,6 +132,6 @@ export const usePlayer = () => {
 
 export const ButtonMediaPlayer = (classe: string, tgPlayer: () => void, statePlayer: boolean) => {
   return(
-    <button className={classe} onClick={tgPlayer}>{statePlayer ? 'Fechar' : 'Abrir'} Player <IoMusicalNotes /></button>
+    <button className={classe} onClick={tgPlayer}>Mostrar Player <IoMusicalNotes /></button>
   )
 }
