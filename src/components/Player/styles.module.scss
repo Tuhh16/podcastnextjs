@@ -127,6 +127,10 @@
     .slider {
         flex: 1;
 
+        @media (max-width:767px){
+            margin: 0 0.8rem
+        }
+
         .emptySlider {
             width: 100%;
             height: 4px;
