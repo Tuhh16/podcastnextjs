@@ -33,9 +33,9 @@ export function Header() {
                 onClick={toogleTheme}
             >
                 { theme === "light" ? (
-                    <IoSunny />
-                ) : (
                     <IoMoon />
+                ) : (
+                    <IoSunny />
                 )
                 }
             
