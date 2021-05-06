@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta property="og:title" content="Podcastr" key="Podcastr" />
-                    <meta property="og:description" content="Aplicação que exibe varios podcasts da Rocketseat via Api" />
+                    <meta property="og:description" content="Aplicação que exibe os episódios dos podcasts da Rocketseat onde cada um tem uma pagina interna dando mais detalhes do episódio." />
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://podcastnextjs.vercel.app" />
                     <meta property="og:image" content="https://podcastnextjs.vercel.app/app-preview.png" />
