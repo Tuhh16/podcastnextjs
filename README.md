@@ -8,7 +8,7 @@
  Podcastr é um projeto desenvolvido durante a NLW#5 "Next Level Week #5" da Rocketseat que foi realizado dentro de uma semana. 
 </p>
 
-<p>Você pode visualizar o resultado do projeto nesse <a href="https://podcastnextjs.vercel.app/" target="_blank">link</a>.</p>
+<p align="center">Você pode visualizar o resultado do projeto nesse <a href="https://podcastnextjs.vercel.app/" target="_blank">link</a>.</p>
 
 <h4 align="center">
 	🚧 Desenvolvimento 🚀 🚧
