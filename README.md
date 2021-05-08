@@ -29,8 +29,8 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-<p>O projeto é basicamente uma listagem dos episódios de podcasts da Rocketseat onde consumimos todas as inforações via API, cada episódio possui uma pagina própria com mais detalhes sobre o episódio.</p>
-<p>E por ultimo, porém não menos importante temos um player construido com todos os recusos que o HTML nos oferece com as funções basicas de qualquer player, que são: play, pause, próximo, anterior, deixar em ordem aleatória e repetir.</>
+<p>O projeto é basicamente uma listagem dos episódios de podcasts da Rocketseat onde consumimos todas as informações via API, cada episódio possui uma pagina própria com mais detalhes sobre o episódio.</p>
+<p>E por ultimo, porém não menos importante temos um player construído com todos os recursos que o HTML nos oferece com as funções básicas de qualquer player, que são: play, pause, próximo, anterior, deixar em ordem aleatória e repetir.</>
 
 ## 🎨 Layout
 
